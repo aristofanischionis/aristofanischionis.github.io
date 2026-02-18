@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aristofanis Chionis Koufakos | OSCP+ Penetration Tester & Red Team Operator | Kigali, Rwanda</title>
+<meta name="description" content="Aristofanis Chionis Koufakos is an OSCP+ certified penetration tester and red team operator based in Kigali, Rwanda. BlackHat Europe speaker. Founder of IMIZI Cyber. Pentesting engagements delivered across 8 countries for banking and fintech clients.">
+<meta name="keywords" content="Aristofanis Chionis Koufakos, penetration tester Rwanda, red team Kigali, OSCP certified, cybersecurity consultant East Africa, IMIZI Cyber, BlackHat speaker, pentest Africa">
+<meta name="author" content="Aristofanis Chionis Koufakos">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0c0e14">
+<meta name="color-scheme" content="dark">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Aristofanis Chionis Koufakos | OSCP+ Penetration Tester & Red Team Operator">
+<meta property="og:description" content="Offensive security professional based in Kigali, Rwanda. OSCP+ certified. BlackHat Europe speaker. 50+ pentest engagements across 8 countries. Founder of IMIZI Cyber.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aristofanischionis.com">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Aristofanis Chionis Koufakos">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Aristofanis Chionis Koufakos | OSCP+ Penetration Tester">
+<meta name="twitter:description" content="Offensive security professional. OSCP+. BlackHat speaker. Founder of IMIZI Cyber, Kigali.">
+
+<link rel="canonical" href="https://aristofanischionis.com">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F6E1;</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Aristofanis Chionis Koufakos",
+  "alternateName":"Aristos",
+  "jobTitle":"Penetration Tester & Red Team Operator",
+  "description":"OSCP+ certified offensive security professional specializing in penetration testing and red team operations for financial institutions.",
+  "url":"https://aristofanischionis.com",
+  "image":"https://aristofanischionis.com/og.png",
+  "sameAs":[
+    "https://linkedin.com/in/aristofanischionis",
+    "https://github.com/aristofanischionis",
+    "https://imizicyber.com"
+  ],
+  "worksFor":{"@type":"Organization","name":"IMIZI Cyber","url":"https://imizicyber.com","description":"Offensive security consultancy based in Kigali, Rwanda"},
+  "alumniOf":[
+    {"@type":"CollegeOrUniversity","name":"Technical University of Denmark","url":"https://www.dtu.dk/"},
+    {"@type":"CollegeOrUniversity","name":"National and Kapodistrian University of Athens","url":"https://www.di.uoa.gr/"}
+  ],
+  "hasCredential":[
+    {"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"OSCP+"},
+    {"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"OSCP"},
+    {"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"PNPT"},
+    {"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"PJPT"}
+  ],
+  "knowsAbout":["Penetration Testing","Red Team Operations","Web Application Security","Mobile Application Security","API Security","Network Security","BNR Compliance","OWASP","NIST"],
+  "address":{"@type":"PostalAddress","addressLocality":"Kigali","addressCountry":"RW"},
+  "nationality":"Greek"
+}
+</script>
+
+<style>
+:root {
+    --bg: #0c0e14;
+    --bg2: #10131c;
+    --card: #151825;
+    --card-h: #1a1e2e;
+    --ac: #34d399;
+    --ac2: #2dd4bf;
+    --ac-s: rgba(52,211,153,.08);
+    --ac-m: rgba(52,211,153,.15);
+    --txt: #e4e7ef;
+    --txt2: #9098b0;
+    --txt3: #6b7394; /* bumped from #565e78 for WCAG AA on large text */
+    --brd: #1e2236;
+    --brd2: #282d44;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'Sora', sans-serif;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--bg);color:var(--txt);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+
+/* Skip to content - accessibility */
+.skip{position:absolute;top:-100%;left:16px;background:var(--ac);color:var(--bg);padding:8px 16px;border-radius:4px;font-family:var(--mono);font-size:13px;z-index:10000;transition:top .2s}
+.skip:focus{top:16px;outline:none}
+
+/* Focus styles for keyboard nav */
+a:focus-visible,.badge:focus-visible,.lnk:focus-visible,.pj:focus-visible,.cb:focus-visible{outline:2px solid var(--ac);outline-offset:3px;border-radius:4px}
+
+/* Subtle glow - no grid (differentiator from Imizi Cyber) */
+.glow{position:fixed;top:-200px;left:50%;transform:translateX(-50%);width:800px;height:600px;background:radial-gradient(ellipse,rgba(52,211,153,.04) 0%,transparent 70%);pointer-events:none;z-index:0}
+
+a{color:var(--ac);text-decoration:none;transition:all .2s}a:hover{color:var(--ac2)}
+.w{max-width:860px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+
+/* Header */
+header{padding:100px 0 48px}
+.status{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:12px;color:var(--ac);letter-spacing:1px;text-transform:uppercase;background:var(--ac-s);padding:6px 16px;border-radius:20px;border:1px solid rgba(52,211,153,.15);margin-bottom:28px}
+.pulse{width:7px;height:7px;background:var(--ac);border-radius:50%;animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+
+h1{font-size:clamp(38px,6vw,60px);font-weight:700;letter-spacing:-2.5px;line-height:1.05;margin-bottom:20px}
+h1 .last{color:var(--txt2);font-weight:400}
+.intro{font-size:17px;color:var(--txt2);font-weight:300;max-width:580px;line-height:1.8}.intro strong{color:var(--txt);font-weight:500}
+
+.stats{display:flex;flex-wrap:wrap;gap:32px;margin-top:36px;padding-top:32px;border-top:1px solid var(--brd)}
+.stat .num{font-family:var(--mono);font-size:28px;font-weight:600;color:var(--ac);line-height:1}
+.stat .label{font-size:12px;color:var(--txt3);margin-top:6px;letter-spacing:.5px}
+
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.badge{font-family:var(--mono);font-size:11px;font-weight:600;padding:5px 12px;border:1px solid var(--brd);border-radius:5px;color:var(--txt2);background:var(--card);letter-spacing:.8px;transition:all .3s;cursor:default}.badge:hover{border-color:var(--ac);color:var(--ac)}.badge.m{border-color:var(--ac);color:var(--ac);background:var(--ac-s)}
+
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.lnk{font-family:var(--mono);font-size:12px;padding:7px 14px;border:1px solid var(--brd);border-radius:5px;color:var(--txt3);transition:all .25s;display:inline-flex;align-items:center;gap:6px}.lnk:hover{border-color:var(--ac);color:var(--ac);background:var(--ac-s)}
+
+/* Sections */
+section{padding:56px 0;border-top:1px solid var(--brd)}
+.st{font-family:var(--mono);font-size:11px;color:var(--ac);letter-spacing:3px;text-transform:uppercase;margin-bottom:36px}
+
+/* Experience - proper h2 headings */
+.exp{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid rgba(30,34,54,.6);transition:all .3s}.exp:last-of-type{border-bottom:none}.exp:hover{background:var(--ac-s);margin:0 -20px;padding:18px 20px;border-radius:8px}
+.exp-d{font-family:var(--mono);font-size:12px;color:var(--txt3);padding-top:4px;white-space:nowrap}
+.exp-b h3{font-size:15px;font-weight:600;margin-bottom:2px}.exp-b .org{color:var(--ac);font-size:13px;margin-bottom:6px}.exp-b p{font-size:13px;color:var(--txt2);line-height:1.65}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.tag{font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:3px;background:var(--card);color:var(--txt3);border:1px solid var(--brd)}
+
+/* Projects */
+.pjs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.pj{background:var(--card);border:1px solid var(--brd);border-radius:10px;padding:22px;transition:all .3s;display:flex;flex-direction:column}.pj:hover{border-color:var(--brd2);background:var(--card-h);transform:translateY(-2px)}
+.pj .pi{font-size:22px;margin-bottom:12px}.pj h3{font-size:14px;font-weight:600;margin-bottom:6px}.pj p{font-size:12px;color:var(--txt2);line-height:1.6;flex:1}
+.pj .pl{font-family:var(--mono);font-size:11px;color:var(--ac);margin-top:12px;display:inline-flex;align-items:center;gap:4px}.pj .pl::after{content:' \2192'}
+
+/* Talks */
+.tk{background:var(--card);border:1px solid var(--brd);border-radius:10px;padding:24px;display:flex;gap:18px;transition:all .3s;margin-bottom:12px}.tk:last-of-type{margin-bottom:0}.tk:hover{border-color:var(--ac);background:var(--ac-s)}
+.tk .ti{font-size:28px;flex-shrink:0}.tk .ev{font-size:12px;color:var(--ac);font-family:var(--mono);letter-spacing:.5px}.tk h3{font-size:15px;font-weight:600;margin:4px 0 6px}.tk p{font-size:13px;color:var(--txt2)}
+
+/* Services */
+.svcs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.svc{display:flex;align-items:center;gap:10px;padding:14px 16px;border-radius:8px;background:var(--card);border:1px solid var(--brd);font-size:13px;color:var(--txt2);transition:all .25s}.svc:hover{border-color:var(--brd2)}.svc .si{font-size:16px}
+.geo{font-size:13px;color:var(--txt2);margin-top:20px;padding:16px 20px;background:var(--card);border:1px solid var(--brd);border-radius:8px}.geo strong{color:var(--txt);font-weight:500}
+
+/* Education */
+.edus{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.edu{padding:20px;background:var(--card);border:1px solid var(--brd);border-radius:10px;transition:all .3s}.edu:hover{border-color:var(--brd2)}.edu .dg{font-size:14px;font-weight:600;margin-bottom:3px}.edu .sch{color:var(--ac);font-size:13px;margin-bottom:3px}.edu .yr{font-family:var(--mono);font-size:11px;color:var(--txt3)}
+
+/* CTA */
+.cta-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.cta-c{padding:32px 28px;border-radius:12px;border:1px solid var(--brd);background:var(--card);transition:all .3s;text-align:center}.cta-c:hover{border-color:var(--brd2);transform:translateY(-2px)}
+.cta-c.pri{border-color:var(--ac);background:linear-gradient(135deg,var(--card) 0%,rgba(52,211,153,.06) 100%)}.cta-c.pri:hover{box-shadow:0 8px 40px rgba(52,211,153,.12)}
+.cta-c h3{font-size:16px;font-weight:600;margin-bottom:8px}.cta-c p{font-size:13px;color:var(--txt2);margin-bottom:18px;line-height:1.6}
+.cb{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12px;font-weight:600;padding:10px 22px;border-radius:6px;transition:all .3s}
+.cb.g{background:var(--ac);color:var(--bg)}.cb.g:hover{box-shadow:0 4px 20px rgba(52,211,153,.3);color:var(--bg);transform:translateY(-1px)}
+.cb.o{border:1px solid var(--brd2);color:var(--txt2)}.cb.o:hover{border-color:var(--ac);color:var(--ac)}
+
+footer{padding:36px 0;border-top:1px solid var(--brd);text-align:center}
+.fl{display:flex;justify-content:center;flex-wrap:wrap;gap:20px;margin-bottom:16px}.fl a{font-family:var(--mono);font-size:12px;color:var(--txt3)}.fl a:hover{color:var(--ac)}
+.fc{font-size:11px;color:var(--txt3);font-family:var(--mono)}
+
+/* Reduced motion */
+@media(prefers-reduced-motion:reduce){
+    *{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}
+    .rv{opacity:1;transform:none}
+    html{scroll-behavior:auto}
+}
+
+/* Mobile */
+@media(max-width:640px){
+    header{padding:60px 0 36px}
+    .exp{grid-template-columns:1fr;gap:4px}
+    .tk{flex-direction:column;gap:10px}
+    .cta-row{grid-template-columns:1fr}
+    .stats{gap:20px}
+    .stat .num{font-size:24px}
+    section{padding:40px 0}
+    .w{padding:0 20px}
+    h1{letter-spacing:-1.5px}
+}
+
+/* Tablet */
+@media(min-width:641px) and (max-width:860px){
+    .cta-row{grid-template-columns:1fr 1fr}
+    .stats{gap:24px}
+}
+
+/* Print */
+@media print{
+    body{background:#fff;color:#111}
+    .glow,.pulse,.skip{display:none}
+    a{color:#111;text-decoration:underline}
+    .card,.edu,.pj,.tk,.svc,.cta-c{border:1px solid #ccc;background:#f9f9f9}
+    .ac,.badge.m,.org,.ev,.sch{color:#0a7d55}
+    .cb.g{background:#0a7d55;color:#fff}
+    section{page-break-inside:avoid}
+    footer .fl a::after{content:" (" attr(href) ")";font-size:10px}
+}
+
+.rv{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}.rv.v{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<!-- Skip navigation for accessibility -->
+<a href="#main-content" class="skip">Skip to content</a>
+
+<div class="glow" aria-hidden="true"></div>
+
+<div class="w">
+
+<header role="banner">
+    <div class="status" aria-label="Currently available for security engagements"><span class="pulse" aria-hidden="true"></span> Open to engagements</div>
+    <h1>Aristofanis<br>Chionis <span class="last">Koufakos</span></h1>
+    <p class="intro"><strong>Offensive security professional</strong> specializing in penetration testing and red team operations for financial institutions. <strong>BlackHat Europe speaker</strong>. Founder of <a href="https://imizicyber.com">IMIZI Cyber</a> in Kigali, Rwanda.</p>
+
+    <div class="stats" role="list" aria-label="Key statistics">
+        <div class="stat" role="listitem"><div class="num">50+</div><div class="label">Pentest engagements</div></div>
+        <div class="stat" role="listitem"><div class="num">8</div><div class="label">Countries</div></div>
+        <div class="stat" role="listitem"><div class="num">400+</div><div class="label">Professionals trained</div></div>
+        <div class="stat" role="listitem"><div class="num">6+</div><div class="label">Years in security</div></div>
+    </div>
+
+    <div class="badges" role="list" aria-label="Professional certifications">
+        <span class="badge m" role="listitem">OSCP+</span>
+        <span class="badge" role="listitem">OSCP</span>
+        <span class="badge" role="listitem">PNPT</span>
+        <span class="badge" role="listitem">PJPT</span>
+    </div>
+
+    <nav class="links" aria-label="Profile links">
+        <a href="https://linkedin.com/in/aristofanischionis" class="lnk" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+        <a href="https://github.com/aristofanischionis" class="lnk" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+        <a href="https://imizicyber.com" class="lnk" target="_blank" rel="noopener noreferrer" aria-label="IMIZI Cyber website">IMIZI Cyber</a>
+        <a href="mailto:aristofanis@imizicyber.com" class="lnk" aria-label="Send email">Email me</a>
+    </nav>
+</header>
+
+<main id="main-content">
+
+<section class="rv" aria-labelledby="exp-heading">
+    <h2 class="st" id="exp-heading">Experience</h2>
+    <div class="exp">
+        <div class="exp-d"><time datetime="2026">2026</time> &mdash; now</div>
+        <div class="exp-b">
+            <h3>Founder & Lead Pentester</h3>
+            <div class="org">IMIZI Cyber &mdash; Kigali, Rwanda</div>
+            <p>Offensive security consultancy serving BNR-regulated financial institutions across East Africa. Penetration testing, red team operations, and cybersecurity compliance assessments.</p>
+            <div class="tags" aria-label="Skills"><span class="tag">Pentesting</span><span class="tag">Red Team</span><span class="tag">BNR Compliance</span><span class="tag">East Africa</span></div>
+        </div>
+    </div>
+    <div class="exp">
+        <div class="exp-d"><time datetime="2025">2025</time> &mdash; <time datetime="2026">2026</time></div>
+        <div class="exp-b">
+            <h3>Senior Cyber Security Consultant</h3>
+            <div class="org">Yinkozi Middle East &mdash; Dubai, UAE</div>
+            <p>Lead penetration tester handling all client engagements end-to-end. Delivered web, mobile, API, and infrastructure assessments for Tier-1 African banks across multiple countries. Engineered a mobile security SDK for a major South African fintech.</p>
+            <div class="tags" aria-label="Skills"><span class="tag">Web Pentest</span><span class="tag">Mobile Pentest</span><span class="tag">API Security</span><span class="tag">SDK Engineering</span></div>
+        </div>
+    </div>
+    <div class="exp">
+        <div class="exp-d"><time datetime="2022">2022</time> &mdash; <time datetime="2024">2024</time></div>
+        <div class="exp-b">
+            <h3>Internal Red Team & Penetration Tester</h3>
+            <div class="org">Danske Bank &mdash; Copenhagen, Denmark</div>
+            <p>Red team member at Denmark's largest bank. Adversary simulation, penetration testing, and security assessments on critical banking infrastructure. Designed and ran CTF events training 400+ employees across the entire organization.</p>
+            <div class="tags" aria-label="Skills"><span class="tag">Red Team</span><span class="tag">Active Directory</span><span class="tag">Banking</span><span class="tag">CTF</span></div>
+        </div>
+    </div>
+    <div class="exp">
+        <div class="exp-d"><time datetime="2019">2019</time> &mdash; <time datetime="2022">2022</time></div>
+        <div class="exp-b">
+            <h3>FullStack Developer & Software Engineer</h3>
+            <div class="org">CERN &middot; Nordea &middot; Freelance</div>
+            <p>Web application development at CERN (Slides tool, open-sourced and still in use). Developer at Nordea (Nordic financial services). Three years of full-stack development before transitioning to offensive security.</p>
+            <div class="tags" aria-label="Skills"><span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Python</span></div>
+        </div>
+    </div>
+</section>
+
+<section class="rv" aria-labelledby="work-heading">
+    <h2 class="st" id="work-heading">Featured Work</h2>
+    <div class="pjs">
+        <a href="https://github.com/honeynet/honeyscanner" target="_blank" rel="noopener noreferrer" class="pj" aria-label="Honeyscanner project on GitHub">
+            <div class="pi" aria-hidden="true">&#x1F41D;</div>
+            <h3>Honeyscanner</h3>
+            <p>Open-source vulnerability analyzer for honeypots. MSc thesis at DTU, built during Google Summer of Code 2023. Presented at BlackHat Europe Arsenal.</p>
+            <span class="pl" aria-hidden="true">GitHub</span>
+        </a>
+        <a href="https://imizicyber.com" target="_blank" rel="noopener noreferrer" class="pj" aria-label="IMIZI Cyber website">
+            <div class="pi" aria-hidden="true">&#x1F6E1;&#xFE0F;</div>
+            <h3>IMIZI Cyber</h3>
+            <p>Offensive security consultancy for financial institutions in East Africa. Pentesting, red team, and BNR compliance from Kigali.</p>
+            <span class="pl" aria-hidden="true">imizicyber.com</span>
+        </a>
+        <a href="https://github.com/CERN/slides" target="_blank" rel="noopener noreferrer" class="pj" aria-label="CERN Slides project on GitHub">
+            <div class="pi" aria-hidden="true">&#x1F4BB;</div>
+            <h3>CERN Slides</h3>
+            <p>Web-based presentation tool developed at CERN. Open-sourced and still actively used within the organization.</p>
+            <span class="pl" aria-hidden="true">GitHub</span>
+        </a>
+    </div>
+</section>
+
+<section class="rv" aria-labelledby="speak-heading">
+    <h2 class="st" id="speak-heading">Speaking & Open Source</h2>
+    <div class="tk">
+        <div class="ti" aria-hidden="true">&#x1F3A4;</div>
+        <div>
+            <div class="ev">BLACKHAT EUROPE 2023 &mdash; ARSENAL</div>
+            <h3>Honeyscanner: A Vulnerability Analyzer for Honeypots</h3>
+            <p>Presented a tool for detecting vulnerabilities in honeypot deployments. Built as MSc research at DTU, refined during Google Summer of Code 2023.</p>
+        </div>
+    </div>
+    <div class="tk">
+        <div class="ti" aria-hidden="true">&#x1F41D;</div>
+        <div>
+            <div class="ev">GOOGLE SUMMER OF CODE 2023 & 2024</div>
+            <h3>The Honeynet Project</h3>
+            <p>GSoC 2023 contributor developing Honeyscanner. Returned as mentor in 2024 to guide new contributors on honeypot security research.</p>
+        </div>
+    </div>
+</section>
+
+<section class="rv" aria-labelledby="svc-heading">
+    <h2 class="st" id="svc-heading">What I Do</h2>
+    <div class="svcs" role="list">
+        <div class="svc" role="listitem"><span class="si" aria-hidden="true">&#x1F578;&#xFE0F;</span> Web Application Pentesting</div>
+        <div class="svc" role="listitem"><span class="si" aria-hidden="true">&#x1F4F1;</span> Mobile Security (Android & iOS)</div>
+        <div class="svc" role="listitem"><span class="si" aria-hidden="true">&#x1F517;</span> API Security Assessment</div>
+        <div class="svc" role="listitem"><span class="si" aria-hidden="true">&#x1F5A7;</span> Network & Infrastructure Pentesting</div>
+        <div class="svc" role="listitem"><span class="si" aria-hidden="true">&#x1F534;</span> Red Team & Adversary Simulation</div>
+        <div class="svc" role="listitem"><span class="si" aria-hidden="true">&#x1F6E1;&#xFE0F;</span> Security Engineering & SDK Dev</div>
+        <div class="svc" role="listitem"><span class="si" aria-hidden="true">&#x1F4CB;</span> Compliance (BNR, NIST, OWASP)</div>
+        <div class="svc" role="listitem"><span class="si" aria-hidden="true">&#x1F393;</span> Security Training & CTF Design</div>
+    </div>
+    <div class="geo"><strong>Engagements delivered across:</strong> Rwanda, South Africa, Kenya, Uganda, Mozambique, Seychelles, Denmark, and the UAE.</div>
+</section>
+
+<section class="rv" aria-labelledby="edu-heading">
+    <h2 class="st" id="edu-heading">Education</h2>
+    <div class="edus">
+        <div class="edu"><div class="dg">MSc Computer Security</div><div class="sch">Technical University of Denmark (DTU)</div><div class="yr"><time datetime="2021">2021</time> &mdash; <time datetime="2023">2023</time></div></div>
+        <div class="edu"><div class="dg">BSc Computer Science</div><div class="sch">University of Athens (NKUA)</div><div class="yr"><time datetime="2015">2015</time> &mdash; <time datetime="2020">2020</time></div></div>
+        <div class="edu"><div class="dg">Erasmus Exchange</div><div class="sch">Ulster University, Northern Ireland</div><div class="yr"><time datetime="2019">2019</time></div></div>
+    </div>
+</section>
+
+<section class="rv" aria-labelledby="cta-heading">
+    <h2 class="st" id="cta-heading">Work With Me</h2>
+    <div class="cta-row">
+        <div class="cta-c pri">
+            <h3>Hire IMIZI Cyber</h3>
+            <p>Professional penetration testing and security consulting for financial institutions across East Africa.</p>
+            <a href="https://imizicyber.com" class="cb g" target="_blank" rel="noopener noreferrer">Visit IMIZI Cyber &#x2192;</a>
+        </div>
+        <div class="cta-c">
+            <h3>Get in Touch Directly</h3>
+            <p>For freelance engagements, speaking opportunities, collaborations, or recruitment inquiries.</p>
+            <a href="mailto:aristofanis@imizicyber.com" class="cb o">Email Me &#x2192;</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+</div>
+
+<footer role="contentinfo">
+<div class="w">
+    <nav class="fl" aria-label="Footer links">
+        <a href="https://linkedin.com/in/aristofanischionis" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/aristofanischionis" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://imizicyber.com" target="_blank" rel="noopener noreferrer">IMIZI Cyber</a>
+        <a href="mailto:aristofanis@imizicyber.com">Email</a>
+    </nav>
+    <div class="fc">&copy; <time datetime="2026">2026</time> Aristofanis Chionis Koufakos &mdash; Kigali, Rwanda</div>
+</div>
+</footer>
+
+<script>
+const els=document.querySelectorAll('.rv');
+if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    const obs=new IntersectionObserver(entries=>{entries.forEach((e,i)=>{if(e.isIntersecting){setTimeout(()=>e.target.classList.add('v'),i*80);obs.unobserve(e.target)}})},{threshold:.08});
+    els.forEach(el=>obs.observe(el));
+}else{els.forEach(el=>el.classList.add('v'))}
+</script>
+</body>
+</html>
